@@ -1,0 +1,15 @@
+
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "es6",
+        "module": "CommonJS",
+        "watch": true,
+        //模块解析策略
+        "moduleResolution": "node",
+        
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

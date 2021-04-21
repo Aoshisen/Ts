@@ -1,0 +1,18 @@
+
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "es6",
+        //动态的引用json类型的数据必须在node的环境下
+        "module": "CommonJS",
+        "watch": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+    //    "moduleResolution":"Node"
+
+
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

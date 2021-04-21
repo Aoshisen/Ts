@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "lib": ["ES2015","DOM"],
+        "outDir": "./dist",
+        "watch": true
+    },
+    "include": ["./src/**/*.ts"]
+}

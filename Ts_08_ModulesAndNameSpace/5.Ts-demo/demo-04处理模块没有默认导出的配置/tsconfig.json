@@ -1,0 +1,22 @@
+
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "es6",
+        "module": "AMD",
+        "watch": true,
+        "allowJs": true
+        ,
+       /*  在 `ESM` 中模块可以设置默认导出值
+        
+        但是在 `CommonJS` 、`AMD` 中是没有默认值设置的，它们导出的是一个对象（`exports`） */
+        "allowSyntheticDefaultImports": true,
+        //在使用的时候由于没有定义默认的导出，在使用的时候会出现问题，设置**esModuleInterop**
+        "esModuleInterop": true,
+
+
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ES6",
+    "watch": true,
+    "noImplicitAny": true, //不允许any类型
+    "strictNullChecks": true, //严格的空值检测
+    "experimentalDecorators": true //启用装饰器属性
+  },
+  "include": ["./src/**/*"]
+}

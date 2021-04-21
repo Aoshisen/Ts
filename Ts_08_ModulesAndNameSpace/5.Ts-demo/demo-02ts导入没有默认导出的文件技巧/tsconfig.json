@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es6",
+    "module": "ES2015",
+    "allowJs": true
+    //指定可以加载js文件
+  },
+  "include": ["./src/**/*"]
+}

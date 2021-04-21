@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "../dist",
+    "target": "ES5",
+    "strictNullChecks": true, //严格的空值检测
+    // "noImplicitAny": true,//不允许出现隐式的any类型
+    "watch": true
+  },
+  "include": ["../src/**/*"]
+}

@@ -1,0 +1,16 @@
+
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "es6",
+        "module": "CommonJS",
+        "watch": true,
+        //模块解析策略
+        "moduleResolution": "classic",
+        // 该策略是 `TypeScript` 以前的默认解析策略，它已经被新的 `Node` 策略所取代，现在使用该策略主要是为了向后兼容
+        
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

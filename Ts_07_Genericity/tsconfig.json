@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "es5",
+        "watch": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "lib": ["ES2015","DOM"]
+    },
+    "include": ["./src/**/*"]
+}

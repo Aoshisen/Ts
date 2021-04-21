@@ -1,0 +1,15 @@
+
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "es6",
+        "module": "CommonJS",
+        "watch": true,
+
+
+
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

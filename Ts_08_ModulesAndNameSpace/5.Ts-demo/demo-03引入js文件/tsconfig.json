@@ -1,0 +1,13 @@
+
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "es6",
+        "module": "ES2015",
+        "watch": true,
+        // "allowJs": true
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

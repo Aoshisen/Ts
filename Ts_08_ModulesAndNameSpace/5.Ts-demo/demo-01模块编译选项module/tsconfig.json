@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es6",
+    "module": "UMD",
+    //在module 里面定义采用的输出模式`"none"`、`"commonjs"`、`"amd"`、`"udm"`、`"es6"`/`"es2015/esnext"`、`"System"`
+    "watch": true
+  },
+  "include": ["./src/**/*"]
+}
